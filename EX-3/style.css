@@ -1,0 +1,20 @@
+/* TODO */
+
+button {
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #f0a6a7;
+    border: 5px solid #cf9eac;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+button:hover {
+    transition: 0.3s;
+    font-size: 35px;
+    border-color: #f0a6a7;
+    background-color: #cf9eac;
+}

@@ -1,0 +1,34 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 30px 100px 0px 100px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 0;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn-green {
+    background-color: rgb(8, 98, 101);
+}
+
+.btn-yellow {
+    background-color: chocolate;
+}
+
+.btn-purple {
+    background-color: blueviolet;
+}
