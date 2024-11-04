@@ -2,26 +2,34 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
+    background-color: #f8f9fa;
 }
 
 .container {
-    margin: 100px;
+    margin: 50px;
     padding: 30px;
-    border: 2px solid black;
+    border: 2px solid #333;
+    border-radius: 8px;
     justify-content: center;
-    width: 30%;
-    height: 700px;
-    
+    width: 1000%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;    
 }
 
 .profile {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
 img {
@@ -36,6 +44,7 @@ div .bio {
 }
 table {
     width: 100%;
+    margin-top: 20px;
 }
 
 .P-F-F {
@@ -49,14 +58,23 @@ table {
 
 .icons .fa-brands {
     padding: 10px;
+    color: #555;
+    transition: color 0.3s, transfrom 0.3s;
+}
+
+.icons .fa-brands:hover {
+    color: #0073e6;
+    transform: scale(1.1);
 }
 
 .btn button {
     font-size: 20px;
-    border: 2px solid black;
+    border: 2px solid #333;
     border-radius: 30px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     margin-top: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 button:hover {
